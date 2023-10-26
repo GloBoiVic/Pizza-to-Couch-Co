@@ -7,9 +7,9 @@ function Home() {
   return (
     <div className="px-4 my-10 text-center sm:my-16">
       <h1 className="mb-8 text-2xl font-semibold ">
-        The best pizza.
+        Mouth watering pizza.
         <br />
-        <span className="text-red-500">Straight out of the oven, straight to you.</span>
+        <span className="text-red-500">Baked to perfection in our oven and straight to your couch!</span>
       </h1>
 
       {username === '' ? (
