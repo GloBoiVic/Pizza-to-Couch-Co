@@ -1,11 +1,10 @@
-import { Link } from 'react-router-dom';
-import LinkButton from '../../ui/LinkButton.jsx';
-import Button from '../../ui/Button.jsx';
-import CartItem from './CartItem.jsx';
 import { useDispatch, useSelector } from 'react-redux';
-import { clearCart, getCart } from './cartSlice.js';
+import Button from '../../ui/Button.jsx';
+import LinkButton from '../../ui/LinkButton.jsx';
 import { getUserName } from '../user/userSlice.js';
+import CartItem from './CartItem.jsx';
 import EmptyCart from './EmptyCart.jsx';
+import { clearCart, getCart } from './cartSlice.js';
 
 function Cart() {
   const username = useSelector(getUserName);

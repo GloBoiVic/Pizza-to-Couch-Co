@@ -1,5 +1,3 @@
-// Test ID: IIDSAT
-
 import { useFetcher, useLoaderData } from 'react-router-dom';
 import { getOrder } from '../../services/apiRestaurant.js';
 import { calcMinutesLeft, formatCurrency, formatDate } from '../../utils/helpers';
